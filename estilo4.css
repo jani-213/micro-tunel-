@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    background: linear-gradient( rgba(7, 8, 10, 0.75),
+     rgba(11, 11, 17, 0.75)),
+      url(imjenes/Microtúnel-forrado-con-tela-térmica-sobre-cultivo-de-hortalizas.jpg) no-repeat center center fixed;
+     background-size: cover;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat(6, minmax(100px,1fr));
+    grid-template-rows: repeat(15 minmax(50px,1fr));
+    gap: 2px;
+    color:white;
+
+
+}
+.encabezado{
+    grid-column-start: 1;
+    grid-column-end: 8;   
+grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(50px,1fr));
+    grid-template-rows: 1fr;
+    background-color: rgb(160, 215, 247);
+    
+}
+.a1,.a2,.a3,.a4,.a5,.a6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.a1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.a2{
+
+    border-radius: 10px;
+}
+
+.a3{
+    border-radius: 10px;
+}
+
+.a4{
+     border-radius: 10px;
+}
+.a5{
+     border-radius: 10px;
+}
+
+.a1:hover{
+    background-color: rgb(99, 231, 193);
+}
+.a2:hover{
+    background-color:rgb(99, 231, 193);
+}
+.a3:hover{
+    background-color: rgb(99, 231, 193);
+}
+.a4:hover{
+    background-color: rgb(99, 231, 193);
+}
+.a5:hover{
+    background-color: rgb(99, 231, 193);
+}
+
+.cuerpo{
+display: flex;
+align-items:center;
+    justify-content: center; 
+    height: 100vh;
+    text-align: center;
+    flex-direction: column;
+    
+
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 14;
+}
+.pie{
+    background-color: rgb(160, 215, 247);
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+a{
+   text-decoration: none;
+    color: white;
+}
+.contenedor2{
+    
+    width: 100vw;
+    margin: auto;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(auto-fill,300px);
+    grid-auto-rows: 300px;
+    min-height: 80%;
+
+    
+
+}
+
+.item{
+    border-radius: 10px;
+    text-align: center;
+       filter: brightness(1.2);
+ filter: none; /* Se quita el filtro al pasar el mouse */
+
+
+
+}
+.tarjeta{
+    border-radius: 10px;
+    width: 100%;
+    height: 50%;
+    box-shadow: 0 10px 10px rgb(15, 17, 19);
+}
+.contenedor3{
+    width: 100vw;
+    margin: auto;
+    height: 100%;
+   
+}
+h3{
+    background-color: brown;
+}
+
+.r2{
+    filter: brightness(1.2);
+ 
+}
